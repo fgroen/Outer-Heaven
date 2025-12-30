@@ -24,19 +24,37 @@ SIXPAC is a modern **FM-PAC** clone for the **MSX**, developed by members of **O
 
 ---
 
+## 🛒 Ordering Hardware
+
+Want to get your hands on a physical SIXPAC cartridge? You can preorder one from **SuperSoniqs**:
+
+**[🛒 Preorder SIXPAC from SuperSoniqs](https://shop.supersoniqs.com/en/home/125-sixpac.html)**
+
+The SIXPAC cartridge comes with:
+- Cartridge case with sticker
+- PCB with genuine YM2413 chip
+- Original packaging box
+- Built-in ROM with FM tracks and extra BASIC commands
+
+Please note that manufacturing may take some time, and make sure your MSX (or FPGA clone) supports 12V on the cartridge bus.
+
+> **Note:** Please check the [SuperSoniqs store](https://shop.supersoniqs.com/en/home/125-sixpac.html) for exact details regarding pricing, availability, shipping, and specifications.
+
+---
+
 ## 🔥 Flashing a Firmware Update
 
 To update the SIXPAC firmware, you can use the tool **WRTSST.COM** written by [HRA!](https://github.com/hra1129), available at [this repository](https://github.com/hra1129/MSX_MegaSCC_for_SST39SF040/tree/main/tools/wrtsst).
 
 ### Releases
 
-- **[sixpac-20250121.rom](sixpac-20250121.rom)** - Initial release.
-
+- **[sixpac-20250121.rom](_archive/sixpac-20250121.rom)** - Initial release.
+- **[sixpac-20251230.rom](sixpac-20251230.rom)** - Added SuperSoniqs to the credits.
 
 ### Steps to Flash a New Firmware:
 
 1. Download `WRTSST.COM` and copy it to a writable MSX disk or storage device.
-2. Place the new [firmware ROM file](sixpac-20250121.rom) in the same directory.
+2. Place the new [firmware ROM file](sixpac-20251230.rom) in the same directory.
 3. Boot into MSX-DOS and run the following command:
    ```
    WRTSST.COM <firmware.rom>
@@ -60,14 +78,15 @@ We have recorded some videos so you can check out the sound quality of SIXPAC fo
 ## 👏 Credits
 SIXPAC was built with passion by these  **Outer Heaven** members:
 
-| Role                 | Contributor          |
-|----------------------|---------------------|
-| **Name giver**       | GreyFoxNL           |
-| **Incredible solderer** | Jelle Jelsma       |
-| **PCB designer**       | Roadfighter         |
-| **Programmer** | tsjakoe          |
-| **Luminous designer**     | Zett Darkstone      |
-| **Elegant labeler**  | bitsofbas           |
+| Role                    | Contributor      |
+|-------------------------|------------------|
+| **Name giver**          | GreyFoxNL        |
+| **Incredible solderer** | Jelle Jelsma     |
+| **PCB designer**        | Roadfighter      |
+| **Programmer**          | tsjakoe          |
+| **Luminous designer**   | Zett Darkstone   |
+| **Elegant labeler**     | bitsofbas        |
+| **Shipping**            | Supersoniqs      |
 
 ---
 
